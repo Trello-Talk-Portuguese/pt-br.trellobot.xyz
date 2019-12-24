@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lobometal/public_html/pt-br.trellobot.xyz
+    - /bin/cp -r * $DEPLOYPATH
